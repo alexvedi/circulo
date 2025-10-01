@@ -8,13 +8,13 @@
     <link type="text/css" href="./styles.css" rel="stylesheet"/>
   </head>
   <body>
-    <!-- <model-viewer> HTML element -->
-    <model-viewer src="frankie-anim.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" autoplay>
+    <!-- <model-viewer> HTML  element -->
+    <model-viewer src="frankie-anim.glb" ios-src="frankie-anim.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" autoplay>
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
       <button slot="ar-button" id="ar-button">
-          View in your space
+          Ver en Realidad Aumentada
       </button>
       <div id="ar-prompt">
           <img src="ar_hand_prompt.png">
